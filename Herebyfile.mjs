@@ -23,6 +23,8 @@ import {
 
 enableFileFingerprintCache();
 
+console.log('pwned');
+
 if (process.platform === "win32") {
     process.chdir(fs.realpathSync.native(process.cwd()));
 }
